@@ -1,0 +1,35 @@
+# Python 字节码、编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# 项目打包构建产物
+dist/
+build/
+*.egg-info/
+
+# 程序日志文件
+*.log
+logs/
+
+# IDE 编辑器配置
+.vscode/
+.idea/
+
+# 本地环境变量、密钥配置
+.env
+.env.local
+
+# 测试缓存
+.pytest_cache/
+.coverage
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
